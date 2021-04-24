@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+ <title>Grocery Project</title>
+ <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+ <div id="main">
+  <div id="mainContent">
+   <p style="font-size: 50px; color: rgb(1, 2, 63); margin: 0; padding: 0; font-weight: bold;">Grocery Bud</p>
+   <span id="spanMessage">
+    <p id="messagesInput"></p>
+   </span>
+   <div id="inputButtons">
+    <input type="text" id="groceryName" value="">
+    <button onclick="groceryButton()" id="groceryButton">Submit</button>
+   </div>
+   <div id="groceryBox">
+    <div id="groceryList"></div>
+
+
+   </div>
+   <span id="spanButton"><button id="clearButton" onclick="clearButton()">Clear All</button></span>
+  </div>
+ </div>
+
+ <script src="./script.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,28 @@
+{
+	"folders": [
+		{
+			"path": "..\\..\\goods table"
+		},
+		{
+			"path": "..\\Contact Form"
+		},
+		{
+			"path": "..\\Javascript Math Addtion app"
+		},
+		{
+			"path": "..\\Light Switch Project"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\Background Image Slider"
+		},
+		{
+			"path": "..\\Greeting Message Project"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "Grocery Project"
+	}
+}

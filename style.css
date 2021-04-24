@@ -1,0 +1,105 @@
+html, body {
+ margin: 0px;
+ padding: 0px;
+}
+#main {
+ height: 100vh;
+ width: 100%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+#mainContent {
+ height: 70vh;
+ width: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ flex-direction: column;
+}
+
+#spanMessage {
+  height: 5vh;
+  width: 100%;
+  margin-bottom: 20px;
+  text-align: center;
+}
+#spanMessaage, p {
+  font-size: 20px;
+}
+#clearButton {
+  height: 5vh;
+  width: 101.5vh;
+  text-align: center;
+ margin-top: 20px;
+ border-radius: 10px;
+ font-size: 20px;
+ border: 1px solid black;
+ outline-style: none;
+ cursor: pointer;
+ color: red;
+}
+#clearButton:hover {
+  background-color: black;
+  color: red;
+}
+
+#inputButtons {
+ height: 7vh;
+ width: 106vh;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+#groceryBox {
+margin-top: 20px;
+height: 60vh;
+width: 110.5vh;
+overflow: scroll;
+
+}
+/* this will hide the scrollbar in webkit based browsers - safari, chrome, etc */
+#groceryBox::-webkit-scrollbar { width: 0 !important } 
+input {
+ outline-style: none; 
+ font-size: 20px;
+width: 75%;
+height: 5vh;
+}
+ #groceryButton {
+ outline-style: none;
+ height: 5.5vh;
+ width: 20%;
+ font-size: 20px;
+ background-color: royalblue;
+ color: white;
+ border: 1px solid black;
+ border-top-right-radius: 10px;
+ border-bottom-right-radius: 10px;
+ cursor: pointer;
+}
+ #groceryButton:hover {
+   background-color: rgb(7, 57, 209);
+;
+ }
+#groceryName {
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  border: 1px solid black;
+}
+#groceryList {
+  
+}
+ul {
+  list-style-type: none;
+
+
+
+}
+
+li {
+ margin: 3px;
+  list-style:none;
+
+font-size: 30px;
+}
